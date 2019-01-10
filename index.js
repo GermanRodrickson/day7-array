@@ -17,6 +17,8 @@ const comments = [
 const bigger19 = people.some(people => (2019 - people.year) > 19);
 console.log(bigger19);
 // Array.prototype.every() // is everyone 19 or older?
+const everyone19 = people.every(people => 2019 - people.year > 19);
+console.log(everyone19);
 // Array.prototype.find()
 // Find is like filter, but instead returns just the one you are looking for
 // find the comment with the ID of 823423
